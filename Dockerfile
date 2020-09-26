@@ -7,5 +7,6 @@ COPY entrypoint.sh /entrypoint.sh
 COPY app /app
 
 WORKDIR /app
+EXPOSE 4200
 
 ENTRYPOINT ["sh", "/entrypoint.sh"]
