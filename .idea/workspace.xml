@@ -1,7 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8c1bf14-f6ba-4dd3-9b95-42255429bd52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/.gitlab-ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/docker/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/docker/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/constants-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/createTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/deleteTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/deployAppTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/environmentTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/kubeEnvironmentsModule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/listTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/myModalContent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/service/kubeEnvironmentHttpService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/service/kubeEnvironmentTransformerService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/service/modalService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/updateTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/js/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/js/ui-bootstrap-tpls-0.11.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-helm-charts/auto-devops/lib/application-charts/auto-devops-api/templates/auto-devops-api-ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-helm-charts/auto-devops/lib/application-charts/auto-devops-frontend/templates/auto-devops-frontend-ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-helm-charts/auto-devops/lib/application-charts/auto-devops-frontend/templates/auto-devops-frontend-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/entrypoint.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1i2MLJYOanv7gv04FHWcmLJX0mh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8c1bf14-f6ba-4dd3-9b95-42255429bd52" name="Default Changelist" comment="" />
+      <created>1601101175214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601101175214</updated>
+      <workItem from="1601101176434" duration="4630000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="385" y="151" key="search.everywhere.popup" timestamp="1601102214806">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="385" y="151" key="search.everywhere.popup/0.23.1440.804@0.23.1440.804" timestamp="1601102214806" />
   </component>
 </project>
