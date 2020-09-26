@@ -2,39 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c1bf14-f6ba-4dd3-9b95-42255429bd52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/.gitlab-ci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/docker/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/docker/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/constants-template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/createTemplate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/deleteTemplate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/deployAppTemplate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/environmentTemplate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/kubeEnvironmentsModule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/listTemplate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/myModalContent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/service/kubeEnvironmentHttpService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/service/kubeEnvironmentTransformerService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/service/modalService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/app/module/updateTemplate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/js/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-frontend/www/js/ui-bootstrap-tpls-0.11.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-helm-charts/auto-devops/lib/application-charts/auto-devops-api/templates/auto-devops-api-ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-helm-charts/auto-devops/lib/application-charts/auto-devops-frontend/templates/auto-devops-frontend-ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../gitlab/auto-devops-helm-charts/auto-devops/lib/application-charts/auto-devops-frontend/templates/auto-devops-frontend-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/app/mock-heroes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/app/heroes/heroes.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/heroes/heroes.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/app/heroes/heroes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/heroes/heroes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/app/heroes/heroes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/heroes/heroes.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +29,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -79,6 +54,7 @@
       <updated>1601101175214</updated>
       <workItem from="1601101176434" duration="6826000" />
       <workItem from="1601111723962" duration="9000" />
+      <workItem from="1601111734992" duration="2596000" />
     </task>
     <servers />
   </component>
@@ -86,9 +62,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="151" width="670" height="676" key="search.everywhere.popup" timestamp="1601111663157">
+    <state x="385" y="151" width="670" height="676" key="search.everywhere.popup" timestamp="1601112047379">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state x="385" y="151" width="670" height="676" key="search.everywhere.popup/0.23.1440.804@0.23.1440.804" timestamp="1601111663157" />
+    <state x="385" y="151" width="670" height="676" key="search.everywhere.popup/0.23.1440.804@0.23.1440.804" timestamp="1601112047379" />
   </component>
 </project>
