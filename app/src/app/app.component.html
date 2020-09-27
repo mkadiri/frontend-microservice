@@ -1,7 +1,27 @@
-<h1>{{title}}</h1>
-<nav>
-  <a routerLink="/dashboard">Dashboard</a>
-  <a routerLink="/heroes">Heroes</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/list">List</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/heroes">Create</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/update">Update</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/delete">Delete</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/deploy-app">Deploy-app</a>
+      </li>
+    </ul>
+  </div>
 </nav>
-<router-outlet></router-outlet>
-<app-messages></app-messages>
+
+<div class="container-fluid" style="padding: 20px; margin-top: 50px">
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>
+</div>
+
