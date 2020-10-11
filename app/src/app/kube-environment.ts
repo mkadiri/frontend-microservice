@@ -1,6 +1,8 @@
 export interface KubeEnvironment {
   name: number;
+  fqdn: string;
+  age: string;
+  status: string;
   owner: string;
-  date_created: string;
   branch: string;
 }

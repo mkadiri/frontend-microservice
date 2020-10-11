@@ -5,17 +5,19 @@
     <thead>
     <tr>
       <th>Name</th>
+      <th>Fqdn</th>
+      <th>Age</th>
       <th>Owner</th>
-      <th>Date Created</th>
       <th>Branch</th>
     </tr>
     </thead>
     <tbody>
-    <tr *ngFor = "let hero of environments">
-      <td>{{hero.id}}</td>
-      <td>{{hero.id}}</td>
-      <td>{{hero.id}}</td>
-      <td>{{hero.id}}</td>
+    <tr *ngFor = "let environment of environments">
+      <td>{{environment.name}}</td>
+      <td>{{environment.fqdn}}</td>
+      <td>{{environment.age}}</td>
+      <td>{{environment.owner}}</td>
+      <td>{{environment.branch}}</td>
     </tr>
     </tbody>
   </table>

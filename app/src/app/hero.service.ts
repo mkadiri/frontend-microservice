@@ -30,7 +30,7 @@ export class HeroService {
       );
   }
 
-  /** GET hero by id. Return `undefined` when id not found */
+  /** GET environment by id. Return `undefined` when id not found */
   getHeroNo404<Data>(id: number): Observable<Hero> {
     const url = `${this.heroesUrl}/?id=${id}`;
     return this.http.get<Hero[]>(url)
@@ -44,7 +44,7 @@ export class HeroService {
       );
   }
 
-  /** GET hero by id. Will 404 if id not found */
+  /** GET environment by id. Will 404 if id not found */
   getHero(id: number): Observable<Hero> {
     const url = `${this.heroesUrl}/${id}`;
     return this.http.get<Hero>(url).pipe(
@@ -56,7 +56,7 @@ export class HeroService {
   /* GET heroes whose name contains search term */
   searchHeroes(term: string): Observable<Hero[]> {
     if (!term.trim()) {
-      // if not search term, return empty hero array.
+      // if not search term, return empty environment array.
       return of([]);
     }
     return this.http.get<Hero[]>(`${this.heroesUrl}/?name=${term}`).pipe(
@@ -69,7 +69,7 @@ export class HeroService {
 
   //////// Save methods //////////
 
-  /** POST: add a new hero to the server */
+  /** POST: add a new environment to the server */
   addHero(hero: Hero): Observable<Hero> {
     return this.http.post<Hero>(this.heroesUrl, hero, this.httpOptions).pipe(
       tap((newHero: Hero) => this.log(`added hero w/ id=${newHero.id}`)),
@@ -77,7 +77,7 @@ export class HeroService {
     );
   }
 
-  /** DELETE: delete the hero from the server */
+  /** DELETE: delete the environment from the server */
   deleteHero(hero: Hero | number): Observable<Hero> {
     const id = typeof hero === 'number' ? hero : hero.id;
     const url = `${this.heroesUrl}/${id}`;
@@ -88,7 +88,7 @@ export class HeroService {
     );
   }
 
-  /** PUT: update the hero on the server */
+  /** PUT: update the environment on the server */
   updateHero(hero: Hero): Observable<any> {
     return this.http.put(this.heroesUrl, hero, this.httpOptions).pipe(
       tap(_ => this.log(`updated hero id=${hero.id}`)),
