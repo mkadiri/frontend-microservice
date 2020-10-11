@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Hero } from '../hero';
-import { HeroService } from '../hero.service';
+import {KubeEnvironmentService} from '../kube-environment.service';
+import {KubeEnvironment} from '../kube-environment';
 
 @Component({
   selector: 'app-list',
@@ -8,16 +8,16 @@ import { HeroService } from '../hero.service';
   styleUrls: [ './list.component.css' ]
 })
 export class ListComponent implements OnInit {
-  heroes: Hero[] = [];
+  environments: KubeEnvironment[] = [];
 
-  constructor(private heroService: HeroService) { }
+  constructor(private kubeEnvironmentService: KubeEnvironmentService) { }
 
   ngOnInit(): void {
-    this.getHeroes();
+    this.getEnvironments();
   }
 
-  getHeroes(): void {
-    this.heroService.getHeroes()
-      .subscribe(heroes => this.heroes = heroes.slice(1, 5));
+  getEnvironments(): void {
+    this.kubeEnvironmentService.getEnvironments()
+      .subscribe(environments => this.environments = environments);
   }
 }
