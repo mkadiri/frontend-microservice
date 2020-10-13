@@ -1,5 +1,5 @@
 export interface KubeEnvironment {
-  name: number;
+  name: string;
   fqdn: string;
   age: string;
   status: string;
