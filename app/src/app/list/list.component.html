@@ -1,8 +1,6 @@
 <div style="font-size: 14px">
   <div style="margin-bottom: 50px;">
     <h4>aws1-test environments</h4>
-<!--    <tr ng-repeat="environmentPod in environmentPods | filter:filterAll">-->
-
     <table class="table table-hover">
       <thead>
       <tr>
@@ -14,7 +12,7 @@
       </tr>
       </thead>
       <tbody>
-      <tr *ngFor = "let environment of environments | tableFilter:'name,fqdn,age,owner,branch':tableFilterInput">
+      <tr *ngFor = "let environment of environments | tableFilter:tableFilterInput">
         <td>{{environment.name}}</td>
         <td>{{environment.fqdn}}</td>
         <td>{{environment.age}}</td>

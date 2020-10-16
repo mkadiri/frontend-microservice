@@ -9,8 +9,7 @@ import {KubeEnvironment} from '../kube-environment';
 })
 export class ListComponent implements OnInit {
   environments: KubeEnvironment[] = [];
-  // environmentsCopy: KubeEnvironment[] = [];
-  // searchTerm: '';
+  tableFilterInput: '';
 
   constructor(private kubeEnvironmentService: KubeEnvironmentService) { }
 
@@ -22,21 +21,4 @@ export class ListComponent implements OnInit {
     this.kubeEnvironmentService.getEnvironments()
       .subscribe(environments => this.environments = environments);
   }
-
-  // search(): void {
-  //   const term = this.searchTerm;
-  //   // this.environments = this.environmentsCopy.filter(
-  //   //   environment => environment.name === term
-  //   // );
-  //
-  //   // this.environments = this.environmentsCopy.filter(
-  //   //   (item, index) => item.name === term
-  //   // );
-  //
-  //   // if (!term) {
-  //   //   this.environments = this.environmentsCopy;
-  //   // } else {
-  //   //   this.environments = this.environmentsCopy.filter(tag => tag.name.indexOf(term) >= 0);
-  //   // }
-  // }
 }
